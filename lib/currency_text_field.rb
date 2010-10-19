@@ -9,7 +9,6 @@ module ActionView
       include ActionView::Helpers::NumberHelper
 
       def currency_text_field(method, options = {})
-        debugger
         if options[:format]
           format = CurrencyTextField.format[options[:format]]
           options.delete(:format)
