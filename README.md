@@ -6,7 +6,7 @@ A Rails 2.3.x plugin to cleanly output currencies in form fields.
 Installation
 ============
 
-./script/plugin install git://github.com/nfm/currency_text_field
+    ./script/plugin install git://github.com/nfm/currency_text_field
 
 Usage
 =====
