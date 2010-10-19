@@ -24,7 +24,7 @@ argument:
     - form_for @invoice do |f|
 	    = f.currency_text_field :total, :format => :pounds
 
-`format[:default]` will be used if you don't specify an explicit `:format`
-argument.
+`CurrencyTextField.format[:default]` will be used if you don't specify an
+explicit `:format` argument.
 
 Copyright (c) 2010 Nicholas Firth-McCoy, released under the MIT license
